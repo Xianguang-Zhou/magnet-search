@@ -6,8 +6,8 @@
         <artifactId>magnet-search</artifactId>
         <version>0.0.1</version>
     </parent>
-    <artifactId>magnet-search-site</artifactId>
-    <packaging>war</packaging>
+    <artifactId>magnet-search-common</artifactId>
+    <packaging>jar</packaging>
 
     <licenses>
         <license>
@@ -22,13 +22,4 @@
             <email>xianguang.zhou@outlook.com</email>
         </developer>
     </developers>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.zxg.search</groupId>
-            <artifactId>magnet-search-common</artifactId>
-            <version>0.0.1</version>
-        </dependency>
-    </dependencies>
-
 </project>
